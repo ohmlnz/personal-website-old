@@ -5,7 +5,7 @@
 <section id = 'intro'>
 		 <nav>
 			 <ul>
-			  	<li><a href = '#intro'>home</a></li> <!-- highlight each section of the menu + reduce opacity -->
+			  	<li><a href = '#intro'>home</a></li>
 			  	<li><a href = '#about'>about</a></li>
 			 	<li><a href = '#portfolio'>portfolio</a></li>
 			 	<li><a href = '#skills'>skills</a></li>
@@ -54,7 +54,7 @@
 			        <li>Duis aute irure dolor in reprehenderit</li>
 			        <li>Duis aute irure dolor in reprehenderit</li>
 			        <li>Duis aute irure dolor in reprehenderit</li>
-			    </ul> <!-- include certifications somewhere -->
+			    </ul>
 			 </article>
 		</section>
 		<section id = 'contact'>
@@ -63,13 +63,13 @@
 			</header>
 			<article>
 			 	<ul>
-			 		<li><strong>Email:</strong> othman.lanizi@gmail.com</li>
-			 		<li><strong>LinkedIn:</strong> https://linkedin.com/in/othmanlanizi</li>
-			 		<li><strong>GitHub:</strong> https://github.com/OthmanLan</li>
+			 		<li><strong>Email:</strong> <a href="mailto:othman.lanizi@gmail.com">othman.lanizi@gmail.com</a></li>
+			 		<li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/othmanlanizi">https://linkedin.com/in/othmanlanizi</a></li>
+			 		<li><strong>GitHub:</strong> <a href="https://github.com/OthmanLan">https://github.com/OthmanLan</a></li>
 			 	</ul>
-			  <div id = 'social-media'></div> <!-- social media icons, perhaps taken from the Huffington? -->
+			  <div id = 'social-media'></div>
 		 </article>
 		</section>
-	 	<span id = 'bottom'><a href = '#intro'><img src = 'images/arrow.png' alt = 'upward arrow'/></a></span> <!-- use the image of an arrow -->
+	 	<span id = 'bottom'><a href = '#intro'><img src = 'images/arrow.png' alt = 'upward arrow'/></a></span>
 
 {% endblock %}

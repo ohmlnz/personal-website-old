@@ -1,36 +1,31 @@
 /* OVERALL STRUCTURE */
 
-body
-{
+body {
   font-family: 'Lato', serif;
   color: white;
   background-color: RGBA(38, 35, 35, 0.91);
   margin: 0;
 }
 
-section
-{
+section {
   height: 630px;
 }
 
-#intro article, #about, #portfolio, #skills, #contact
-{
+#intro article, #about, #portfolio, #skills, #contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-section h1
-{
+section h1 {
   text-transform: uppercase;
   font-size: 40px;
 }
 
 /* TOP NAVIGATION */
 
-#intro nav
-{
+#intro nav {
   height: 72px;
   background-color: #2C2A2A;
   opacity: 0.8;
@@ -39,70 +34,60 @@ section h1
   z-index: 1;
 }
 
-#intro nav ul
-{
+#intro nav ul {
   width: 562px;
   list-style-type: none;
   margin: auto;
   padding: 21px 0 0 0;
 }
 
-#intro nav ul li
-{
+#intro nav ul li {
   display: inline-block;
   margin-right: 55px;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-#intro nav ul #contact-menu
-{
+#intro nav ul #contact-menu {
   margin-right: 0px;
 }
 
-#intro nav ul li a
-{
+#intro nav ul li a {
   text-decoration: none;
   color: white;
 }
 
-#intro nav ul li a:hover
-{
+#intro nav ul li a:hover {
   color: #bdbdbd;
   cursor: pointer;
 }
 
 /* DESCRIPTION AND CALLS TO ACTION */
 
-#intro
-{
+#intro {
   background-image:url('../images/intro.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   height: 630px;
 }
 
-#intro article
-{
+#intro article {
 	height: 558px;
 }
 
-#intro article h1
-{
+#intro article h1 {
   width: 639px;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 900;
 }
 
-#buttons
-{
+#buttons {
   width: 203px;
   height: 20px;
 }
 
-#buttons span a
-{
+#buttons span a {
   text-transform: uppercase;
   border: 2px solid white;
   padding: 10px;
@@ -112,8 +97,7 @@ section h1
   font-weight: bold;
 }
 
-#buttons span a:hover
-{
+#buttons span a:hover {
 	color: #bdbdbd;
 	border: 2px solid #bdbdbd;
 	padding: 10px;
@@ -123,20 +107,17 @@ section h1
 
 /* ABOUT SECTION */
 
-#about
-{
+#about {
   background-image:url('../images/about.jpg');
   background-size: cover;
   background-repeat:no-repeat;
 }
 
-#about header h1
-{
+#about header h1 {
   width: 212px;
 }
 
-#about article p
-{
+#about article p {
   width: 700px;
   color: white;
   font-size: 22px;
@@ -145,95 +126,86 @@ section h1
 
 /* PORTFOLIO SECTION */
 
-#portfolio
-{
+#portfolio {
   background-image:url('../images/portfolio.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
 }
 
-#portfolio header h1
-{
+#portfolio header h1 {
   width: 232px;
 }
 
-#portfolio article
-{
+#portfolio article {
   display: flex;
   justify-content: space-around;
 }
 
-#portfolio article figure
-{
+#portfolio article figure {
   width: 330px;
   height: 230px;
   border: 1px solid black;
 }
 
-#portfolio article figure:hover
-{
+#portfolio article figure:hover {
   border: 1px solid white;
   border-radius: 5px;
 }
 
 /* SKILLS SECTION */
 
-#skills
-{
+#skills {
   background-image:url('../images/skills.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
 }
 
-#skills header h1
-{
+#skills header h1 {
   width: 129px;
   position: relative;
   bottom: 60%;
 }
 
-#skills article
-{
+#skills article {
   display: flex;
 }
 
-#skills article ul li strong
-{
+#skills article ul li strong {
   list-style-type: none;
 }
 
 /* CONTACT SECTION */
 
-#contact
-{
+#contact {
   background-image:url('../images/contact.jpg');
   background-size: cover;
   background-repeat:no-repeat;
 }
 
-#contact header h1
-{
+#contact header h1 {
   width: 195px;
   position: relative;
   bottom: 60%;
 }
 
-#contact article ul
-{
+#contact article ul {
   font-size: 20px; 
 }
 
-#contact article ul li
-{
+#contact article ul li {
   list-style-type: none;
+}
+
+#contact article ul li a {
+  text-decoration: none;
+  color: #9c9595;
 }
 
 /* ARROW */
 
-#bottom
-{
+#bottom {
   display: block;
   width: 42px;
   height: 0px;
@@ -242,8 +214,7 @@ section h1
   right: 40px;
 }
 
-#bottom img 
-{
+#bottom img  {
   width: 40px;
 }
 
