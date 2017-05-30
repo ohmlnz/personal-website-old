@@ -73,6 +73,6 @@
 			  <div id='social-media'></div>
 		 </article>
 		</section>
-	 	<span id='bottom'><a href = '#intro'><img src='images/arrow.png' alt='upward arrow'/></a></span>
+	 	<span id='bottom'><a href='#intro'><img src='images/arrow.png' alt='upward arrow'/></a></span>
 
 {% endblock %}
