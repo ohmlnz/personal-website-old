@@ -8,5 +8,7 @@
 <body>
   {% block content %}
   {% endblock %}
+
+  {% include "partials/scripts.njs" %}
 </body>
 </html>

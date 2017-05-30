@@ -2,22 +2,25 @@
 
 {% block content %}
 
-<section id = 'intro'>
+<section id='intro'>
 		 <nav>
 			 <ul>
-			  	<li><a href = '#intro'>home</a></li>
-			  	<li><a href = '#about'>about</a></li>
-			 	<li><a href = '#portfolio'>portfolio</a></li>
-			 	<li><a href = '#skills'>skills</a></li>
-			  	<li id = 'contact-menu'><a href = '#contact'>contact</a></li>
+			  	<li><a href='#intro'>home</a></li>
+			  	<li><a href='#about'>about</a></li>
+				 	<li><a href='#portfolio'>portfolio</a></li>
+				 	<li><a href='#skills'>skills</a></li>
+			  	<li id='contact-menu'><a href='#contact'>contact</a></li>
 			</ul>
 		 </nav>
 		 <article>
-			 <h1>front-end web developer / Digital Marketing Specialist</h1>
-			 <div id = 'buttons'><span><a href="mailto:othman.lanizi@gmail.com">contact</a></span><span><a href = 'files/resume2016.pdf'>Resume</a></span></div>
+			 <h1>{{title}}</h1>
+			 <div id='buttons'>
+			 	<span><a href="mailto:othman.lanizi@gmail.com">contact</a></span>
+			 	<span><a href='#'>Resume</a></span>
+			 </div>
 		</article>
 		</section>
-		<section id = 'about'>
+		<section id='about'>
 		 	<header>
 		 		<h1>About me</h1>
 		 	</header>
@@ -25,7 +28,7 @@
 		 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		 	</article>
 		</section>
-		<section id = 'portfolio'>
+		<section id='portfolio'>
 			<header>
 		 		<h1>Portfolio</h1>
 			</header>
@@ -38,7 +41,7 @@
 				</figure>
 		 	</article>
 		</section>
-		<section id = 'skills'>
+		<section id='skills'>
 			<header>
 				<h1>Skills</h1>
 			</header>
@@ -57,7 +60,7 @@
 			    </ul>
 			 </article>
 		</section>
-		<section id = 'contact'>
+		<section id='contact'>
 			<header>
 				<h1>Contact</h1>
 			</header>
@@ -67,9 +70,9 @@
 			 		<li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/othmanlanizi">https://linkedin.com/in/othmanlanizi</a></li>
 			 		<li><strong>GitHub:</strong> <a href="https://github.com/OthmanLan">https://github.com/OthmanLan</a></li>
 			 	</ul>
-			  <div id = 'social-media'></div>
+			  <div id='social-media'></div>
 		 </article>
 		</section>
-	 	<span id = 'bottom'><a href = '#intro'><img src = 'images/arrow.png' alt = 'upward arrow'/></a></span>
+	 	<span id='bottom'><a href = '#intro'><img src='images/arrow.png' alt='upward arrow'/></a></span>
 
 {% endblock %}
