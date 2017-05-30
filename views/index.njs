@@ -67,8 +67,8 @@
 			<article>
 			 	<ul>
 			 		<li><strong>Email:</strong> <a href="mailto:othman.lanizi@gmail.com">othman.lanizi@gmail.com</a></li>
-			 		<li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/othmanlanizi">https://linkedin.com/in/othmanlanizi</a></li>
-			 		<li><strong>GitHub:</strong> <a href="https://github.com/OthmanLan">https://github.com/OthmanLan</a></li>
+			 		<li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/othmanlanizi" target='_blank'>https://linkedin.com/in/othmanlanizi</a></li>
+			 		<li><strong>GitHub:</strong> <a href="https://github.com/OthmanLan" target='_blank'>https://github.com/OthmanLan</a></li>
 			 	</ul>
 			  <div id='social-media'></div>
 		 </article>
