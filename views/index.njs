@@ -53,7 +53,7 @@
 			        <li>Consectetur adipiscing elit</li>
 			    </ul>
 			    <ul>
-			        <li><strong>Lorem ipsum</strong></li>
+			        <li><strong>Lorem ipsumm</strong></li>
 			        <li>Duis aute irure dolor in reprehenderit</li>
 			        <li>Duis aute irure dolor in reprehenderit</li>
 			        <li>Duis aute irure dolor in reprehenderit</li>
