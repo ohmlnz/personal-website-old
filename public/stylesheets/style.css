@@ -150,6 +150,7 @@ section h1 {
 #portfolio article figure:hover {
   border: 1px solid white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* SKILLS SECTION */
