@@ -130,33 +130,54 @@ section h1 {
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
+  align-items: unset;
 }
 
 #portfolio header h1 {
   width: 232px;
+  margin: auto;
 }
 
-#portfolio article {
-  display: flex;
-  justify-content: space-around;
+#portfolio article ul {
+  padding: 0;
 }
 
-#portfolio article figure {
+#portfolio article ul li {
   width: 330px;
   height: 230px;
   border: 1px solid black;
+  margin: 16px;
+  border-radius: 5px;
 }
 
-#portfolio article figure:hover {
+#portfolio article ul li:hover {
   border: 1px solid white;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+#portfolio .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio .slick-dots li {
+  border: none;
+  width: 20px;
+  height: 20px;
+  list-style: none;
+}
+
+#portfolio .slick-dots li:hover {
+  border: none;
   cursor: pointer;
 }
 
 /* SKILLS SECTION */
 
 #skills {
-  background-image:url('../images/skills.jpg');
+  /* background-image:url('../images/skills.jpg'); */
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;

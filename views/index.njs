@@ -33,12 +33,14 @@
 		 		<h1>Portfolio</h1>
 			</header>
 		 	<article>
-		 		<figure>
-				</figure>
-				<figure>
-				</figure>
-				<figure>
-				</figure>
+		 		<ul class="slider">
+			   <li></li>
+	       <li></li>
+	       <li></li>
+	       <li></li>
+	       <li></li>
+	       <li></li>   
+				</section>
 		 	</article>
 		</section>
 		<section id='skills'>
