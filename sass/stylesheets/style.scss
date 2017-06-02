@@ -1,0 +1,239 @@
+body {
+  font-family: 'Lato', serif;
+  color: white;
+  background-color: RGBA(38, 35, 35, 0.91);
+  margin: 0;
+}
+
+section {
+  height: 630px;
+}
+
+#intro article, #about, #portfolio, #skills, #contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+/* Top navigation */
+
+#intro nav {
+  height: 72px;
+  background-color: #2C2A2A;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+  ul {
+    width: 562px;
+    list-style-type: none;
+    margin: auto;
+    padding: 21px 0 0 0;
+    
+    li {
+      display: inline-block;
+      margin-right: 55px;
+      font-weight: 900;
+      text-transform: uppercase;
+      
+      a {
+        text-decoration: none;
+        color: white;
+        
+        &:hover {
+          color: #bdbdbd;
+          cursor: pointer;
+        }
+      }
+    }
+
+    #contact-menu {
+      margin-right: 0px;      
+    }
+  }
+}
+
+
+/* Main description */
+
+#intro {
+  background-image:url('../images/intro.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 630px;
+  
+  article {
+    height: 558px;
+    
+    h1 {
+      width: 639px;
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 900;
+    }
+  }
+}
+
+
+#buttons {
+  height: 20px;
+  
+  span a {
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+    &:hover {
+      color: #bdbdbd;
+      border: 2px solid #bdbdbd;
+      padding: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}
+
+/* About section */
+
+#about {
+  background-image:url('../images/about.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  
+  header h1 {
+    width: 212px;
+  }
+
+  article p {
+    width: 700px;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+/* Portfolio section */
+
+#portfolio {
+  background-image:url('../images/portfolio.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  align-items: unset;
+  
+  header h1 {
+    width: 232px;
+    margin: auto;
+  }
+
+  article ul {
+    padding: 0;
+    
+    li {
+      width: 330px;
+      height: 230px;
+      border: 1px solid black;
+      margin: 16px;
+      border-radius: 5px;  
+      
+      &:hover {
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;      
+      } 
+    }
+  }
+
+  .slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    li {
+      border: none;
+      width: 20px;
+      height: 20px;
+      list-style: none;
+      
+      &:hover {
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* Skills section */
+
+#skills {
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  
+  header h1 {
+    width: 129px;
+    position: relative;
+    bottom: 60%;
+  }
+
+  article {
+    display: flex; 
+    
+    ul li strong {
+      list-style-type: none;
+    }
+  }
+}
+
+/* Contact section */
+
+#contact {
+  background-image:url('../images/contact.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  
+  header h1 {
+    width: 195px;
+    position: relative;
+    bottom: 60%;
+  }
+
+  article ul {
+    font-size: 20px; 
+    
+    li {
+      list-style-type: none;
+      
+      a {
+        text-decoration: none;
+        color: #9c9595;
+      }
+    }   
+  }
+}
+
+/* Arrow */
+
+#bottom {
+  display: block;
+  width: 42px;
+  height: 0px;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  
+  img {
+    width: 40px;
+  }
+}

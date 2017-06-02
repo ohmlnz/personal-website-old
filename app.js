@@ -3,6 +3,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nunjucks = require('nunjucks');
+var sass = require('node-sass');
+var sassMiddleware = require('node-sass-middleware');
 
 var routes = require('./routes/index');
 
@@ -21,6 +23,16 @@ app.set('view engine', 'njs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+// saas configuration
+app.use(sassMiddleware({
+  src: __dirname + '/sass',
+  dest: __dirname + '/public',
+  debug: true,
+  outputStyle: 'compressed'
+}));
+
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
