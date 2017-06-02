@@ -3,7 +3,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nunjucks = require('nunjucks');
-var sass = require('node-sass');
 var sassMiddleware = require('node-sass-middleware');
 
 var routes = require('./routes/index');
