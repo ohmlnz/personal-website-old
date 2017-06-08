@@ -137,38 +137,48 @@ section h1 {
     margin: auto;
   }
 
-  article ul {
+  ul {
     padding: 0;
-    
-    li {
-      width: 330px;
-      height: 230px;
-      border: 1px solid black;
-      margin: 16px;
-      border-radius: 5px;  
-      
-      &:hover {
-        border: 1px solid white;
-        border-radius: 5px;
-        cursor: pointer;      
-      } 
-    }
-  }
 
-  .slick-dots{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    li {
-      border: none;
-      width: 20px;
-      height: 20px;
-      list-style: none;
+    .slick-list {
+      padding: 0;
       
-      &:hover {
-        border: none;
-        cursor: pointer;
+      li {
+        width: 330px;
+        height: 230px;
+        border: 1px solid black;
+        margin: 16px;
+        border-radius: 5px;  
+        
+        &:hover {
+          border: 1px solid white;
+          border-radius: 5px;
+          cursor: pointer;      
+        } 
+      }
+    }
+
+    .slick-dots{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      li {
+        width: 7px;
+        height: 7px;
+        display: inline-block;
+        margin-left: 18px;
+        text-indent: -999em;
+        border-radius: 10px;
+        border: 2px solid white;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .slick-active {
+        background-color: white;
       }
     }
   }
