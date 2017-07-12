@@ -34,12 +34,9 @@
 			</header>
 		 	<article>
 		 		<ul class="slider">
-			   <li></li>
-	       <li></li>
-	       <li></li>
-	       <li></li>
-	       <li></li>
-	       <li></li>   
+		 			{% for p in portfolio %}
+			   		<li><a href="{{p.href}}" target="_blank"><img src="{{p.image}}"></a></li>
+   				{% endfor %}
 				</section>
 		 	</article>
 		</section>
