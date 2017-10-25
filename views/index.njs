@@ -73,6 +73,7 @@
 			 		<li><strong>Email:</strong> <a href="mailto:othman.lanizi@gmail.com">othman.lanizi@gmail.com</a></li>
 			 		<li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/othmanlanizi" target='_blank'>https://linkedin.com/in/othmanlanizi</a></li>
 			 		<li><strong>GitHub:</strong> <a href="https://github.com/OthmanLan" target='_blank'>https://github.com/OthmanLan</a></li>
+			 		<li><strong>Phone:</strong> <a href="tel:+9148265280">(914) 826-5280</a></li>
 			 	</ul>
 			  <div id='social-media'></div>
 		 </article>

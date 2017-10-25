@@ -144,7 +144,7 @@ section h1 {
       padding: 0;
       
       li {
-        width: 330px;
+        width: 90% !important;
         height: 230px;
         border: 1px solid black;
         margin: 16px;
@@ -160,14 +160,14 @@ section h1 {
           }
           
           figcaption {
-            display: block;
+            visibility: visible;
             width: 100%;
             color: #ffffff;
-            font-size: 1.2em;
+            /*font-size: 1.2em;*/
             text-align: center;
             position: relative;
             top: -7em;
-          }     
+          }    
         }
 
         figure {
@@ -181,7 +181,7 @@ section h1 {
           }
 
           figcaption {
-            display: none;
+            visibility: hidden;
           }
         }
       }
@@ -274,5 +274,21 @@ section h1 {
   
   img {
     width: 40px;
+  }
+}
+/* Fix stupid intro glitch */
+
+#portfolio ul {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  #intro {
+    article {
+      h1 {
+        width: auto;
+        text-align: center;
+      }
+    }
   }
 }
