@@ -297,6 +297,7 @@ section h1 {
   article {
     p {
       font-size: 1.4em;  
+      margin-bottom: 2em;
     }
 
     ul {
@@ -345,6 +346,19 @@ section h1 {
   }
 }
 
+@media screen and (max-width: 800px) {
+  #about {
+    height: unset;
+    
+    article {
+      p {
+        width: auto;
+        padding: 0 2em 0 2em;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   #intro {
     nav {
@@ -361,6 +375,23 @@ section h1 {
         li:first-child {
           visibility: visible;
         }
+      }
+    }
+
+    article {
+      h1 {
+        font-size: 33px;
+        padding: 1em 1em 0 1em;
+      }
+    }
+  }
+
+  #contact {
+    article {
+      p {
+        font-size: 1.2em;
+        padding: 0 1em 0 1em;
+        text-align: center;
       }
     }
   }
