@@ -22,7 +22,6 @@
 	 </nav>
 	 <article>
 		 <h1>{{title}}</h1>
-		 <img src="images/profile.jpg" alt="profile picture">
 		 <div id='buttons'>
 		 	<span><a href="mailto:othman.lanizi@gmail.com">contact</a></span>
 		 	<span><a href='#'>Resume</a></span>
