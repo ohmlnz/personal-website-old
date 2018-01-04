@@ -23,39 +23,77 @@ section h1 {
 
 /* Top navigation */
 
-#intro nav {
-  height: 72px;
-  background-color: #2C2A2A;
-  opacity: 0.8;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  
-  ul {
-    width: 562px;
-    list-style-type: none;
-    margin: auto;
-    padding: 21px 0 0 0;
+#intro 
+{
+  nav {
+    height: 72px;
+    background-color: #2C2A2A;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     
-    li {
-      display: inline-block;
-      margin-right: 55px;
-      font-weight: 900;
-      text-transform: uppercase;
+    .menu-desktop {
+      width: 562px;
+      list-style-type: none;
+      margin: auto;
+      padding: 21px 0 0 0;
       
-      a {
-        text-decoration: none;
-        color: white;
+      li {
+        display: inline-block;
+        margin-right: 55px;
+        font-weight: 900;
+        text-transform: uppercase;
         
-        &:hover {
-          color: #bdbdbd;
-          cursor: pointer;
+        a {
+          text-decoration: none;
+          color: white;
+          
+          &:hover {
+            color: #bdbdbd;
+            cursor: pointer;
+          }
         }
+      }
+
+      #contact-menu {
+        margin-right: 0px;      
       }
     }
 
-    #contact-menu {
-      margin-right: 0px;      
+    .menu-mobile {
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+      visibility: hidden;
+      
+      li {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 900;
+        font-size: 1.3em;
+        height: 72px;
+        background-color: #2C2A2A;
+        opacity: 1;
+        line-height: 72px;
+        
+        a {
+          text-decoration: none;
+          color: white;
+          
+          &:hover {
+            color: #bdbdbd;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  article {
+    img {
+      border-radius: 100%;
+      width: 180px;
+      margin-bottom: 3em;
     }
   }
 }
@@ -105,9 +143,8 @@ section h1 {
 }
 
 /* About section */
-
 #about {
-  background-image:url('../images/about.jpg');
+  background-image:url('../images/about.png');
   background-size: cover;
   background-repeat:no-repeat;
   
@@ -116,10 +153,10 @@ section h1 {
   }
 
   article p {
-    width: 700px;
+    width: 800px;
     color: white;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 25px;
   }
 }
 
@@ -146,13 +183,13 @@ section h1 {
       li {
         width: 90% !important;
         height: 230px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin: 16px;
-        border-radius: 5px;
+        /* border-radius: 5px; */
         
         &:hover {
-          border: 1px solid white;
-          border-radius: 5px;
+          /*border: 1px solid white;
+          border-radius: 5px;*/
           cursor: pointer; 
           
           img {
@@ -229,8 +266,17 @@ section h1 {
   article {
     display: flex; 
     
+    ul li {
+      margin-bottom: .5em;
+    }
+    
     ul li strong {
       list-style-type: none;
+    }
+
+    ul li:first-child {
+      list-style-type: none;
+      margin-bottom: 1em;
     }
   }
 }
@@ -248,17 +294,23 @@ section h1 {
     bottom: 60%;
   }
 
-  article ul {
-    font-size: 20px; 
-    
-    li {
-      list-style-type: none;
+  article {
+    p {
+      font-size: 1.4em;  
+    }
+
+    ul {
+      font-size: 20px; 
       
-      a {
-        text-decoration: none;
-        color: #9c9595;
-      }
-    }   
+      li {
+        list-style-type: none;
+        
+        a {
+          text-decoration: none;
+          color: #9c9595;
+        }
+      }   
+    }
   }
 }
 
@@ -288,6 +340,27 @@ section h1 {
       h1 {
         width: auto;
         text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #intro {
+    nav {
+      .menu-desktop {
+        display: none;
+      }
+
+      .menu-mobile {
+        
+        li {
+          visibility: hidden;
+        }
+
+        li:first-child {
+          visibility: visible;
+        }
       }
     }
   }
