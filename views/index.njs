@@ -12,7 +12,7 @@
 		  	<li id='contact-menu'><a href='#contact'>contact</a></li>
 		</ul>
 		<ul class='menu-mobile'>
-			<li><a href='#intro'>home</a></li>
+			<li><a href='#intro'>home</a><i class="fa fa-bars" aria-hidden="true"></i></li>
 	  	<li><a href='#about'>about</a></li>
 		 	<li><a href='#portfolio'>portfolio</a></li>
 		 	<li><a href='#skills'>skills</a></li>
