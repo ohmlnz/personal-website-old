@@ -5,6 +5,13 @@ body {
   margin: 0;
 }
 
+/* Error handling */
+
+.error-handling {
+  text-align: center;
+  margin-top: 3em;
+}
+
 section {
   height: 630px;
 }
@@ -83,6 +90,10 @@ section h1 {
         background-color: #2C2A2A;
         opacity: 1;
         line-height: 72px;
+        
+        :hover {
+          cursor: pointer;
+        }
 
         a {
           text-decoration: none;

@@ -1,5 +1,5 @@
 {% extends "layout.njs" %}
- 
+
 {% block content %}
 
 <section id='intro'>
@@ -18,7 +18,7 @@
 		 	<li><a href='#skills'>skills</a></li>
 	  	<li><a href='#contact'>contact</a></li>
 		</ul>
-	 
+
 	 </nav>
 	 <article>
 		 <h1>{{title}}</h1>
@@ -63,15 +63,15 @@
  	<article>
 	 	<ul>
 	     	<li><strong>Tech stack</strong></li>
-	        <li>JS / jQuery</li>
+	        <li>Vanilla JS / jQuery</li>
 	        <li>React / React Native</li>
-	        <li>Express / Ember / Node</li> 
+	        <li>Express / Ember / Node</li>
 	        <li>SASS / WordPress</li>
 	    </ul>
 	    <ul>
 	        <li><strong>Tools</strong></li>
 	        <li>Git</li>
-	        <li>Bootstrap</li>
+	        <li>Sublime / Atom</li>
 	        <li>Photoshop</li>
 	        <li>Xcode</li>
 	    </ul>

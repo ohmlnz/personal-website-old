@@ -2,8 +2,10 @@
 
 {% block content %}
 
-  <h1>{{message}}</h1>
-  <h2>{{error.status}}</h2>
-
+	<div class='error-handling'>
+  	<h1>{{message}}</h1>
+  	<!--<h2>{{error.status}}</h2>-->
+	</div>
+	
 {% endblock %}
 

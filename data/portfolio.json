@@ -1,10 +1,9 @@
 [
 	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499886721/intro-video-thumbnail_tbad3s.jpg", "href": "https://thechisel.com", "caption": "Node.js, Express.js, Ember.js, React.js, Nunjucks, CoffeeScript" },
 	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499890499/pac-logo.png", "href": "https://parisamericanclub.org/", "caption": "WordPress, PHP, JavaScript" },
-	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1513887602/react-blog-2.png", "href": "https://quick-blog.surge.sh/", "caption": "React.js, Firebase" },
-	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1513887947/alouettecommunications.png", "href": "http://alouettecommunications.com/", "caption": "WordPress, PHP, JavaScript" },
-	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1513887947/instagram-viewer-extension.png", "href": "https://chrome.google.com/webstore/detail/instagram-viewer/mpplhjaaapbpgpiekheeifjjgijmhkcn", "caption": "JavaScript" },
-	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1514870693/snake-game-p5.png", "href": "https://codepen.io/OthmanLan/full/LeLWZv/", "caption": "JavaScript, p5.js"},
+	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814695/react-blog_l7d2op.jpg", "href": "https://quick-blog.surge.sh/", "caption": "React.js, Firebase" },
+	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814341/alouette_qlchdg.jpg", "href": "http://alouettecommunications.com/", "caption": "WordPress, PHP, JavaScript" },
+	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515816153/twitagram_jsorvp.jpg", "href": "https://chrome.google.com/webstore/detail/twitagram/ddpfdbkjbnnjopghmhcfkppdgfpbblka/", "caption": "JavaScript" },
+	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515815785/snake_dvd27l.jpg", "href": "https://codepen.io/OthmanLan/full/LeLWZv/", "caption": "JavaScript, p5.js"},
 	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1514932094/budgeto-react-native.png", "href": "https://github.com/OthmanLan/Budgeto", "caption": "React Native" }
 ]
-
