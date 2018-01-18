@@ -3,10 +3,12 @@ $(document).ready(function() {
 	$('#portfolio ul').css('display', 'block');
 
 	$('.slider').slick({
-	  dots: true,
+	  dots: false,
 	  arrows: false,
     slidesToShow: 3,
     slidesToScroll: 3,
+		autoplay: true,
+		autoplaySpeed: 7000,
     responsive: [
     {
       breakpoint: 1024,

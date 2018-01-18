@@ -52,8 +52,11 @@
 						<figcaption>{{p.caption}}</figcaption>
 					</figure>
 				</li>
-				{% endfor %}
-		</section>
+			{% endfor %}
+		</ul>
+		<span>
+			<a href="/details">See more</a>
+		</span>
  	</article>
 </section>
 <section id='skills'>
@@ -63,16 +66,16 @@
  	<article>
 	 	<ul>
 	     	<li><strong>Tech stack</strong></li>
-	        <li>Vanilla JS / jQuery</li>
-	        <li>React / React Native</li>
-	        <li>Express / Ember / Node</li>
-	        <li>SASS / WordPress</li>
+	        <li>JavaScript - jQuery - Node</li>
+	        <li>React - React Native - Express - Ember</li>
+	        <li>Redux - Firebase - MongoDB - Heroku</li>
+	        <li>SCSS - WordPress</li>
 	    </ul>
 	    <ul>
 	        <li><strong>Tools</strong></li>
 	        <li>Git</li>
-	        <li>Sublime / Atom</li>
-	        <li>Photoshop</li>
+	        <li>Sublime - Atom</li>
+	        <li>Photoshop - Blender</li>
 	        <li>Xcode</li>
 	    </ul>
 	 </article>
@@ -84,10 +87,10 @@
 	<article>
 		<p>Interested in collaborating or hiring me? Let's get in touch!</p>
 	 	<ul>
-	 		<li><strong>Email:</strong>&nbsp;<a href="mailto:othman.lanizi@gmail.com"> othman.lanizi@gmail.com</a></li>
-	 		<li><strong>LinkedIn:</strong>&nbsp;<a href="https://linkedin.com/in/othmanlanizi" target='_blank'> https://linkedin.com/in/othmanlanizi</a></li>
-	 		<li><strong>GitHub:</strong>&nbsp;<a href="https://github.com/OthmanLan" target='_blank'> https://github.com/OthmanLan</a></li>
-	 		<li><strong>Phone:</strong>&nbsp;<a href="tel:+9148265280"> (914) 826-5280</a></li>
+			<a href="mailto:othman.lanizi@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+			<a href="https://linkedin.com/in/othmanlanizi" target='_blank'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<a href="https://github.com/OthmanLan" target='_blank'><i class="fa fa-github" aria-hidden="true"></i></a>
+			<a href="tel:+9148265280"><i class="fa fa-mobile" aria-hidden="true"></i></a>
 	 	</ul>
 	  <div id='social-media'></div>
  </article>
